@@ -1,18 +1,18 @@
-## Getting Started
+## Problem: Calculate Average
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+<img alt="Example" src="https://github.com/OG-Matcha/NCU-MIS-Java/blob/dd21f7379dbda4323dc4d4e761011941567dc644/Questions_Pic/0224%E8%AA%B2%E5%A0%82%E7%B7%B4%E7%BF%92.png" style = "width: 50%">
 
-## Folder Structure
+### Problem Statement:
 
-The workspace contains two folders by default, where:
+Create a Java program that displays **"Please input:"** on the screen during execution. The user should then input three integers, each separated by a space, using the keyboard. These three integers should be stored in three separate integer variables.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Calculate the average of these three integers, and round the average to two decimal places.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Output the average value, displaying the result in the same format as the example shown below.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Example:
+```
+Please input: 
+3580 26400 13588
+Average: 14522.67
+```
