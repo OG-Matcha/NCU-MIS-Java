@@ -42,7 +42,7 @@ public class HW2_111403538 {
 
         // 輸入陣列大小
         Scanner scanner = new Scanner(System.in);
-        System.out.println("請輸入陣列大小:");
+        System.out.println("輸入陣列大小:");
         int size = scanner.nextInt();
 
         // 預設多一位給可能發生的進位
