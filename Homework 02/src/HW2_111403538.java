@@ -7,7 +7,7 @@ public class HW2_111403538 {
         int carry = 0;
         int sum = 0;
 
-        // 從倒數第二位開始往回做進位
+        // 從最低位開始往回做進位
         for (int i = digits.length - 1; i > 0; i--) {
             // 計算每一次總和
             sum = digits[i] + carry;
