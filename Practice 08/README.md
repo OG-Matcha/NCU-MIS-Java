@@ -1,18 +1,21 @@
-## Getting Started
+## Problem: Floating-Point Calculation
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+<img alt="Example" src="https://github.com/OG-Matcha/NCU-MIS-Java/blob/b24c9c2f3071379f4c400ee7eb082e863be903f6/Questions_Pic/0428%E8%AA%B2%E5%A0%82%E7%B7%B4%E7%BF%92.png" style = "width: 50%">
 
-## Folder Structure
+### Problem Statement:
 
-The workspace contains two folders by default, where:
+Design a program that can prompt the user to input two numbers, keep calculating the greatest common divisor until one of the number input is 999.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Example:
+```
+Input m: 7
+Input n: 49
+最大公因數為: 7
+Input m: 64
+Input n: 128
+最大公因數為: 64
+Input m: 15
+Input n: 10
+最大公因數為: 5
+Input m: 999
+```
