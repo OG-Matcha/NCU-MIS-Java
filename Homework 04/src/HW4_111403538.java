@@ -40,6 +40,9 @@ public class HW4_111403538 {
     public static String D2B(int n, String res) {
         // 數字為 0 則回傳結果 遞迴基底值
         if (n == 0) {
+            if (res == "") {
+                return "0";
+            }
             return res;
         }
         // 將位元右移一位後傳入下次遞迴，將新的二進位連接在舊結果前方傳入下次遞迴
